@@ -94,8 +94,6 @@ def updateSideBarDesktop():
 
 def updateSideBarMobile():
 
-    print("hello?")
-
     templateSectionBegin="<sidebar.mobile>"
 
     templateSectionEnd="</sidebar.mobile>"
@@ -121,12 +119,6 @@ def updateSideBarMobile():
     f.write(ddd)
 
     f.close()
-
-
-
-
-
-
 
 ###################################################################
 ##
