@@ -2,9 +2,9 @@
 
 ##
 
-sourceDirectory="../"
+sourceDirectory="../proving-grounds"
 
-appName="cascade-template-design.py"
+appName="workr/updatr.py"
 
 ##
 
@@ -27,3 +27,5 @@ echo
 ##
 
 find $sourceDirectory -iname "*.html" -exec python3 $appName {} \;
+
+##find $sourceDirectory -iname "*.html" -exec python3 $appName {} \;
