@@ -15,7 +15,7 @@ def replaceCSSIncludes():
 
 	templateSectionEnd="</styling>"
 
-	with open('templates/html-head-styling.template') as templateFile:
+	with open('templates/html-includes-styling.template') as templateFile:
 
 		substitutionContent = templateFile.read()
 
@@ -43,7 +43,7 @@ def replaceJavascriptIncludes():
 
 	templateSectionEnd="</scripting>"
 
-	with open('templates/html-body-scripting.template') as templateFile:
+	with open('templates/html-includes-scripting.template') as templateFile:
 
 		substitutionContent = templateFile.read()
 
