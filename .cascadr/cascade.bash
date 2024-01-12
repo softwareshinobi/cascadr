@@ -27,5 +27,3 @@ echo
 ##
 
 find $sourceDirectory -iname "*.html" -exec python3 $appName {} \;
-
-##find $sourceDirectory -iname "*.html" -exec python3 $appName {} \;
